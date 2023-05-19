@@ -1,0 +1,6 @@
+user-agent: *
+allow: /
+
+
+user-agent: *
+disallow: /res/
