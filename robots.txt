@@ -1,6 +1,8 @@
 user-agent: *
 allow: /
 
-
 user-agent: *
 disallow: /res/
+
+user-agent: *
+disallow: /js/
