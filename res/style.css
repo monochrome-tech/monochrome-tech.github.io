@@ -1,0 +1,117 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway';
+	font-weight: 500;
+}
+
+/* Hide the menu button for other view types. */
+.menuButton {
+	display: none;
+}
+
+.nav-controls,
+.nav-controls-2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 2em;
+	padding-right: 4em;
+	height: 90px;
+}
+
+.inno-switch {
+	background-color: white;
+	display: flex;
+	width: 60px;
+	border-radius: 10000px;
+	margin-right: 20px;
+	padding: 5px;
+}
+
+.inno-switch-guard {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 30px;
+	background-color: black;
+	border-radius: 10000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	gap: 1.5em;
+	font-weight: bolder;
+}
+
+.home-hero {
+	height: calc(100vh - 90px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.home-hero-title {
+	font-size: 7em;
+	text-align: center;
+	width: 100%;
+}
+
+.navbar.inno {
+	background-color: black;
+}
+
+.inno-switch-guard.inno {
+	color: white;
+}
+
+.nav-links.inno a {
+	color: white;
+	text-decoration: none;
+}
+
+.home-hero.inno {
+	background-color: white;
+}
+
+@media(max-width: 540px) {
+	.menuButton {
+		display: block;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.nav-controls {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.navbar {
+		width: calc(100% - 4em);
+	}
+
+	.home-hero {
+		height: 75vh;
+	}
+
+	.home-hero-title {
+		font-size: 4em;
+		text-align: center;
+	}
+}
