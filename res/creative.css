@@ -54,6 +54,7 @@
 footer.creative {
 	color: black;
 	background-color: white;
+	border-top: 0.2em solid black;
 }
 
 footer.creative .footer-section a,
