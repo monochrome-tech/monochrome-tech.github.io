@@ -62,7 +62,6 @@
 	let active = false;
 
 	toggleDrawer.addEventListener("mousedown", function(ev) {
-		console.log("Toggled: " + active);
 		active = !active;
 
 		if(active) {

@@ -74,6 +74,25 @@
 		<h1 class="home-hero-subtitle inno">INNOVATIVE</h1>
 	</section>
 
+	<section id="aboutUs" class="about-us inno">
+		<div class="colored-box medium one inno"></div>
+		<div class="colored-box large two inno"></div>		
+		<div class="about-us-inner">
+			<p class="about-title inno">About Us</p>
+			<div class="about-details inno">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsam, dolor veritatis quae temporibus molestiae architecto est amet quisquam, repellendus quibusdam fugit ut. Doloribus officiis sunt velit sed ullam unde.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum! Officia, esse maiores voluptatum impedit provident reiciendis fugit dolorem labore consequuntur, doloremque suscipit perferendis, veritatis numquam voluptas sit est eos?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloribus itaque sint et quia voluptas, quidem esse pariatur explicabo modi qui suscipit saepe non sunt harum libero iste id odit?
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptates rerum hic fugit adipisci nobis, aspernatur harum ut minus illum eos nostrum. Sit blanditiis veritatis alias quaerat eos molestiae voluptates!
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur est excepturi laborum, facere reprehenderit velit ex deserunt a animi. Deserunt molestias aperiam doloremque ducimus ab, voluptatem incidunt? Neque, beatae!
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptates rerum hic fugit adipisci nobis, aspernatur harum ut minus illum eos nostrum. Sit blanditiis veritatis alias quaerat eos molestiae voluptates!
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur est excepturi laborum, facere reprehenderit velit ex deserunt a animi. Deserunt molestias aperiam doloremque ducimus ab, voluptatem incidunt? Neque, beatae!
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptates rerum hic fugit adipisci nobis, aspernatur harum ut minus illum eos nostrum. Sit blanditiis veritatis alias quaerat eos molestiae voluptates!
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur est excepturi laborum, facere reprehenderit velit ex deserunt a animi. Deserunt molestias aperiam doloremque ducimus ab, voluptatem incidunt? Neque, beatae!
+			</div>
+		</div>
+	</section>
+
 	<footer class="inno">
 		<div class="footer-inside">
 			<div class="footer-section">

@@ -1,3 +1,12 @@
+/* For the box styling */
+@import "components.css";
+
+/* For the innovative theme */
+@import "inno.css";
+
+/* For the creative theme */
+@import "creative.css";
+
 @font-face {
 	font-family: Primary;
 	src: url("./font/100.ttf") format('truetype');
@@ -79,6 +88,10 @@
 	font-weight: 900;
 }
 
+:root {
+	--color-grey: #f2f2f3;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -86,6 +99,11 @@
 	font-weight: 400;
 	transition: all .3s ease-in-out;
 	overflow-x: hidden;
+}
+
+
+section {
+	height: 100vh;
 }
 
 /* Hide the menu button for other view types. */
@@ -115,6 +133,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	z-index: 100000;
 }
 
 .nav-navigation {
@@ -178,7 +197,7 @@
 
 .nav-links a:hover,
 .mobile-nav-links a:hover {
-	text-decoration: 2px underline overline solid;
+	text-decoration: 2px underline solid;
 }
 
 .home-hero {
@@ -203,6 +222,60 @@
 	font-size: 7em;
 	text-align: center;
 	width: 100%;
+}
+
+.about-us {
+	position: relative;
+	background: var(--color-grey);
+}
+
+.about-us .colored-box.one {
+	top: 2em;
+	left: 2em;
+}
+
+.about-us .colored-box.two {
+	bottom: 2em;
+	right: 2em;
+}
+
+.about-us-inner {
+	margin-top: 10vh;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-title {
+	/* Position Styling */
+	z-index: 40;
+	left: 0;
+	right: 0;
+
+	/* Box Styling */
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+
+	/* Font styling */
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.about-details {
+	z-index: 20;
+	margin-top: -8vh;
+	width: 70%;
+
+	/* TOP RIGHT BOTTOM LEFT */ 
+	padding: 10vh 2em 2em 2em;
 }
 
 footer {
@@ -266,111 +339,6 @@ footer .footer-copyright {
 
 
 
-
-/* For the innovative theme */
-.navbar.inno {
-	background-color: white;
-}
-
-.inno-switch.inno {
-	background-color: black;
-}
-
-.menuButton.inno {
-	color: black;
-}
-
-.inno-switch-guard.inno {
-	color: black;
-	background-color: white;
-}
-
-.nav-links.inno a,
-.mobile-nav-links.inno a {
-	color: black;
-}
-
-.mobile-nav-links.inno {
-	background-color: white;
-}
-
-.home-hero.inno {
-	background-color: white;
-	color: black;
-}
-
-.home-hero-image.inno {
-	display: none;
-}
-
-footer.inno {
-	color: white;
-	background-color: black;
-}
-
-footer.inno .footer-section a,
-footer.inno .footer-copyright a {
-	color:white;
-}
-
-
-
-
-/* For the creative theme */
-.navbar.creative {
-	background-color: black;
-}
-
-.inno-switch.creative {
-	background-color: white;
-}
-
-.inno-switch-guard.creative {
-	color: white;
-	background-color: black;
-}
-
-.nav-links.creative a,
-.mobile-nav-links.creative a {
-	color: white;
-}
-
-.mobile-nav-links.creative {
-	background-color: black;
-}
-
-.home-hero.creative {
-	background-color: black;
-	color: white;
-}
-
-.menuButton.creative {
-	color: white;
-}
-
-.home-hero-subtitle.creative {
-	background-color: gray;
-	background-blend-mode: exclusion;
-}
-
-
-
-footer.creative {
-	color: black;
-	background-color: white;
-}
-
-footer.creative .footer-section a,
-footer.creative .footer-copyright a {
-	color:black;
-}
-
-
-
-
-
-
-
 /* For tablets */
 @media(max-width: 900px) {
 	.menuButton {
@@ -380,6 +348,15 @@ footer.creative .footer-copyright a {
 	.nav-navigation {
 		flex-direction: column;
 	}
+
+	.about-us {
+		height: 100%;
+		padding-bottom: 3em;
+	}
+
+	.about-us-inner {
+		margin-top: 3em;
+	}	
 
 	.nav-links {
 		display: none;

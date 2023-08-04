@@ -1,0 +1,61 @@
+.navbar.creative {
+	background-color: black;
+}
+
+.inno-switch.creative {
+	background-color: white;
+}
+
+.inno-switch-guard.creative {
+	color: white;
+	background-color: black;
+}
+
+.nav-links.creative a,
+.mobile-nav-links.creative a {
+	color: white;
+}
+
+.mobile-nav-links.creative {
+	background-color: black;
+}
+
+.home-hero.creative {
+	background-color: black;
+	color: white;
+}
+
+.menuButton.creative {
+	color: white;
+}
+
+.home-hero-subtitle.creative {
+	background-color: gray;
+	background-blend-mode: exclusion;
+}
+
+
+
+/* For the about us section */
+.about-title.creative {
+	background-color: black;
+	color: white;
+}
+
+.about-details.creative {
+	background-color: white;
+	color: black;
+}
+
+
+
+/* For the footer section */
+footer.creative {
+	color: black;
+	background-color: white;
+}
+
+footer.creative .footer-section a,
+footer.creative .footer-copyright a {
+	color:black;
+}

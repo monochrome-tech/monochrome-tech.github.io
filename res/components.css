@@ -1,0 +1,21 @@
+/* For the UI components */
+.colored-box.medium {
+	height: 70vh;
+	width: 70vh;
+}
+
+.colored-box.small {
+	height: 40vh;
+	width: 40vh;
+}
+
+.colored-box.large {
+	height: 85vh;
+	width: 85vh;
+}
+
+.colored-box {
+	position: absolute;
+	z-index: 1;
+	border: 0.2em solid black;
+}

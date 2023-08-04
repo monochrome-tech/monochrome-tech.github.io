@@ -1,0 +1,59 @@
+/* For the innovative theme */
+.navbar.inno {
+	background-color: white;
+}
+
+.inno-switch.inno {
+	background-color: black;
+}
+
+.menuButton.inno {
+	color: black;
+}
+
+.inno-switch-guard.inno {
+	color: black;
+	background-color: white;
+}
+
+.nav-links.inno a,
+.mobile-nav-links.inno a {
+	color: black;
+}
+
+.mobile-nav-links.inno {
+	background-color: white;
+}
+
+.home-hero.inno {
+	background-color: white;
+	color: black;
+}
+
+.home-hero-image.inno {
+	display: none;
+}
+
+
+/* For the about us section */
+.about-title.inno {
+	background-color: white;
+	color: black;
+}
+
+.about-details.inno {
+	background-color: black;
+	color: white;
+}
+
+
+/* For the footer section */
+footer.inno {
+	color: white;
+	background-color: black;
+}
+
+footer.inno .footer-section a,
+footer.inno .footer-copyright a {
+	color:white;
+}
