@@ -226,7 +226,9 @@ section {
 
 .about-us {
 	position: relative;
-	background: var(--color-grey);
+	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url("./image-1.avif");
+	background-blend-mode: overlay;
 }
 
 .about-us .colored-box.one {

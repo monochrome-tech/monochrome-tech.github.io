@@ -17,5 +17,5 @@
 .colored-box {
 	position: absolute;
 	z-index: 1;
-	border: 0.2em solid black;
+	border: 0.2em solid white;
 }
