@@ -39,6 +39,7 @@
 .about-title.inno {
 	background-color: white;
 	color: black;
+	border: 0.1em solid black;
 }
 
 .about-details.inno {
