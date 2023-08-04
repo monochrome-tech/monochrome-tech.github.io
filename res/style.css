@@ -1,17 +1,100 @@
+@font-face {
+	font-family: Primary;
+	src: url("./font/100.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/200.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/300.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/400.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/500.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/600.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/700.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/800.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: Primary;
+	src: url("./font/900.ttf") format('truetype');
+	font-display: swap;
+	/* To improve SEO kind of. First display the font as a system font, then switch when our font is ready. */
+	font-style: normal;
+	font-weight: 900;
+}
+
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Raleway';
-	font-weight: 500;
+	font-family: Primary;
+	font-weight: 400;
+	transition: all .3s ease-in-out;
+	overflow-x: hidden;
 }
 
 /* Hide the menu button for other view types. */
 .menuButton {
 	display: none;
+	cursor: pointer;
 }
 
-.nav-controls,
-.nav-controls-2 {
+.nav-controls {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -28,20 +111,50 @@
 	height: 90px;
 }
 
-.inno-switch {
-	background-color: white;
+.navbar-group {
 	display: flex;
-	width: 60px;
+	flex-direction: column;
+	width: 100%;
+}
+
+.nav-navigation {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.mobile-nav-links {
+	display: none;
+	flex-direction: column;
+	/* TOP RIGHT BOTTOM LEFT */ 
+	padding: 2em 3em 2em 3em;
+	gap: 1em;
+}
+
+.monochrome-logo {
+	height: 33px;
+	width: 210.75px;
+}
+
+.inno-switch {
+	display: flex;
+	flex-direction: row;
+	width: 5em;
 	border-radius: 10000px;
 	margin-right: 20px;
 	padding: 5px;
+	cursor: pointer;
+}
+
+.inno-switch.enabled {
+	transform: translateX(0em);
+	flex-direction: row-reverse;
 }
 
 .inno-switch-guard {
 	padding-left: 10px;
 	padding-right: 10px;
 	height: 30px;
-	background-color: black;
 	border-radius: 10000px;
 	display: flex;
 	flex-direction: column;
@@ -56,6 +169,18 @@
 	font-weight: bolder;
 }
 
+.nav-links a,
+.mobile-nav-links a {
+	text-decoration: none;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+.nav-links a:hover,
+.mobile-nav-links a:hover {
+	text-decoration: 2px underline overline solid;
+}
+
 .home-hero {
 	height: calc(100vh - 90px);
 	display: flex;
@@ -66,40 +191,202 @@
 }
 
 .home-hero-title {
+	font-weight: 400;
+}
+
+.home-hero-subtitle {
+	font-weight: 700;
+}
+
+.home-hero-title,
+.home-hero-subtitle {
 	font-size: 7em;
 	text-align: center;
 	width: 100%;
 }
 
+footer {
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	height: 50vh;
+	align-items: center;
+	overflow-y: visible;
+}
+
+footer .footer-text {
+	margin-top: 0.4em;
+}
+
+footer .footer-inside {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	gap: 50px;
+	width: 100%;
+}
+
+footer a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+footer .footer-section {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+footer .footer-section.navigation {
+	flex-direction: row;
+	gap: 40px;
+	width: fit-content;
+}
+
+footer .footer-links {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3em;
+}
+
+footer a:hover {
+	text-decoration: 2px underline solid;
+}
+
+footer .footer-title {
+	margin-bottom: .4em;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+footer .footer-copyright {
+	text-align: center;
+}
+
+
+
+
+
+/* For the innovative theme */
 .navbar.inno {
+	background-color: white;
+}
+
+.inno-switch.inno {
 	background-color: black;
 }
 
-.inno-switch-guard.inno {
-	color: white;
+.menuButton.inno {
+	color: black;
 }
 
-.nav-links.inno a {
-	color: white;
-	text-decoration: none;
+.inno-switch-guard.inno {
+	color: black;
+	background-color: white;
+}
+
+.nav-links.inno a,
+.mobile-nav-links.inno a {
+	color: black;
+}
+
+.mobile-nav-links.inno {
+	background-color: white;
 }
 
 .home-hero.inno {
 	background-color: white;
+	color: black;
 }
 
-@media(max-width: 540px) {
+.home-hero-image.inno {
+	display: none;
+}
+
+footer.inno {
+	color: white;
+	background-color: black;
+}
+
+footer.inno .footer-section a,
+footer.inno .footer-copyright a {
+	color:white;
+}
+
+
+
+
+/* For the creative theme */
+.navbar.creative {
+	background-color: black;
+}
+
+.inno-switch.creative {
+	background-color: white;
+}
+
+.inno-switch-guard.creative {
+	color: white;
+	background-color: black;
+}
+
+.nav-links.creative a,
+.mobile-nav-links.creative a {
+	color: white;
+}
+
+.mobile-nav-links.creative {
+	background-color: black;
+}
+
+.home-hero.creative {
+	background-color: black;
+	color: white;
+}
+
+.menuButton.creative {
+	color: white;
+}
+
+.home-hero-subtitle.creative {
+	background-color: gray;
+	background-blend-mode: exclusion;
+}
+
+
+
+footer.creative {
+	color: black;
+	background-color: white;
+}
+
+footer.creative .footer-section a,
+footer.creative .footer-copyright a {
+	color:black;
+}
+
+
+
+
+
+
+
+/* For tablets */
+@media(max-width: 900px) {
 	.menuButton {
 		display: block;
+	}
+
+	.nav-navigation {
+		flex-direction: column;
 	}
 
 	.nav-links {
 		display: none;
 	}
 
-	.nav-controls {
-		justify-content: space-between;
-		width: 100%;
+	.navbar-group {
+		position: fixed;
 	}
 
 	.navbar {
@@ -110,8 +397,48 @@
 		height: 75vh;
 	}
 
-	.home-hero-title {
+	.home-hero-title,
+	.home-hero-subtitle {
 		font-size: 4em;
-		text-align: center;
+	}
+}
+
+@media(max-width: 550px) {
+	.monochrome-logo {
+		height: 26.4px;
+		width: 168.6px;
+	}
+
+	.inno-switch {
+		width: 4em;
+	}
+
+	.home-hero-title,
+	.home-hero-subtitle {
+		font-size: 3em;
+	}
+	
+	footer .footer-section.navigation {
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	footer {
+		height: 100%;
+		gap: 4em;
+	}
+
+	footer .footer-inside {
+		display: flex;
+		gap: 40px;
+		flex-direction: column;
+	}
+
+	footer .footer-section {
+		width: 100%;
+	}
+	
+	footer .footer-section.navigation {
+		gap: 40px;
 	}
 }
