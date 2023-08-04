@@ -10,13 +10,10 @@
 		content="We create and/or market your digital products for your business to carry you to the next level using the absolute best technologies and a user centered approach because, your business is our business, and your business is about the users.">
 
 	<!-- 
-	You are The Innovative and we are The Creative. We help you create and/or market your digital products for your business to carry you to the next level using the absolute best technologies and design principles using the user-centered approach because — let's face it — it's all about you! We perform software development, product analysis, user experience analytics, customer experience management, product testing, and so on, with our experienced team of dedicated, talented, and hardworking staff. Our desire is to not just put your products or services out there the way you want us to, but to exceeed the bars you set and create new standards in the industry
 	-->
 
 	<!-- For the font awesome icons -->
-	<script defer src="./js/fontawesome.js"></script>
-	<script defer src="./js/brands.js"></script>
-	<script defer src="./js/solid.js"></script>
+	<script src="https://kit.fontawesome.com/2d0947296e.js" crossorigin="anonymous"></script>
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="favicon.ico" />
@@ -47,14 +44,12 @@
 						</div>
 					</div>
 
-					<div class="toggle-drawer">
-						<i class="menuButton inno fas fa-bars-staggered fa-2xl"></i>
-					</div>
+					<i class="menuButton inno fas fa-bars-staggered"></i>
 				</div>	
 				<div class="nav-links inno">
 					<a href="#aboutUs">About Us</a>
 					<a href="#solutions">Our Services</a>
-					<a href="#partners">Our Partners</a>
+					<a href="#tools">Our Tools</a>
 					<a href="#contactUs">Contact Us</a>
 				</div>
 			</div>
@@ -62,7 +57,7 @@
 		<div class="mobile-nav-links inno">
 			<a href="#aboutUs">About Us</a>
 			<a href="#solutions">Our Services</a>
-			<a href="#partners">Our Partners</a>
+			<a href="#tools">Our Tools</a>
 			<a href="#contactUs">Contact Us</a>
 		</div>
 	</header>
@@ -93,6 +88,44 @@
 		</div>
 	</section>
 
+	<section id="solutions" class="we-design inno">
+		<div class="we-design-inner">
+			<p class="we-design-title inno">We Design</p>
+			<div class="we-design-details inno">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsam, dolor veritatis quae temporibus molestiae architecto est amet quisquam, repellendus quibusdam fugit ut. Doloribus officiis sunt velit sed ullam unde.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum! Officia, esse maiores voluptatum impedit provident reiciendis fugit dolorem labore consequuntur, doloremque suscipit perferendis, veritatis numquam voluptas sit est eos?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloribus itaque sint et quia voluptas, quidem esse pariatur explicabo modi qui suscipit saepe non sunt harum libero iste id odit?
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptates rerum hic fugit adipisci nobis, aspernatur harum ut minus illum eos nostrum. Sit blanditiis veritatis alias quaerat eos molestiae voluptates!
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="we-develop inno">
+		<div class="we-develop-inner">
+			<p class="we-develop-title inno">We Develop</p>
+			<div class="we-develop-details inno">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsam, dolor veritatis quae temporibus molestiae architecto est amet quisquam, repellendus quibusdam fugit ut. Doloribus officiis sunt velit sed ullam unde.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum! Officia, esse maiores voluptatum impedit provident reiciendis fugit dolorem labore consequuntur, doloremque suscipit perferendis, veritatis numquam voluptas sit est eos?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloribus itaque sint et quia voluptas, quidem esse pariatur explicabo modi qui suscipit saepe non sunt harum libero iste id odit?
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptates rerum hic fugit adipisci nobis, aspernatur harum ut minus illum eos nostrum. Sit blanditiis veritatis alias quaerat eos molestiae voluptates!		
+			</div>
+		</div>
+	</section>
+
+	<section id="solutions" class="we-design inno">
+		<div class="we-market-inner">
+			<p class="we-market-title inno">We Market</p>
+			<div class="we-market-details inno">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsam, dolor veritatis quae temporibus molestiae architecto est amet quisquam, repellendus quibusdam fugit ut. Doloribus officiis sunt velit sed ullam unde.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum! Officia, esse maiores voluptatum impedit provident reiciendis fugit dolorem labore consequuntur, doloremque suscipit perferendis, veritatis numquam voluptas sit est eos?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloribus itaque sint et quia voluptas, quidem esse pariatur explicabo modi qui suscipit saepe non sunt harum libero iste id odit?
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptates rerum hic fugit adipisci nobis, aspernatur harum ut minus illum eos nostrum. Sit blanditiis veritatis alias quaerat eos molestiae voluptates!
+				
+			</div>
+		</div>
+	</section>
+
 	<footer class="inno">
 		<div class="footer-inside">
 			<div class="footer-section">
@@ -116,7 +149,7 @@
 					<div class="footer-links inno">
 						<a href="#aboutUs">About Us</a>
 						<a href="#solutions">Our Services</a>
-						<a href="#partners">Our Partners</a>
+						<a href="#tools">Our Tools</a>
 						<a href="#contactUs">Contact Us</a>
 					</div>
 				</div>

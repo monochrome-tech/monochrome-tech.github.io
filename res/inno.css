@@ -48,6 +48,36 @@
 }
 
 
+/*For the "WE DESIGN" section */
+.we-design-title.inno {
+	background-color: white;
+	color: black;
+	border: 0.1em solid black;
+}
+
+
+/* For the we develop section */
+.we-develop-title.inno {
+	background-color: white;
+	color: black;
+	border: 0.1em solid black;
+}
+
+.we-develop-details.inno {
+	background-color: black;
+	color: white;
+}
+
+
+/*For the "WE DESIGN" section */
+.we-market-title.inno {
+	background-color: white;
+	color: black;
+	border: 0.1em solid black;
+}
+
+
+
 /* For the footer section */
 footer.inno {
 	color: white;

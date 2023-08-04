@@ -50,6 +50,39 @@
 
 
 
+
+
+/*For the "WE DESIGN" section */
+.we-design-title.creative {
+	background-color: black;
+	color: white;
+}
+
+
+
+/* For the about us section */
+.we-develop-title.creative {
+	background-color: black;
+	color: white;
+}
+
+.we-develop-details.creative {
+	background-color: white;
+	color: black;
+	border: 0.2em solid black;
+}
+
+
+
+/* We market section*/
+.we-market-title.creative {
+	background-color: black;
+	color: white;
+}
+
+
+
+
 /* For the footer section */
 footer.creative {
 	color: black;

@@ -110,6 +110,7 @@ section {
 .menuButton {
 	display: none;
 	cursor: pointer;
+	font-size: 2em;
 }
 
 .nav-controls {
@@ -256,8 +257,6 @@ section {
 .about-title {
 	/* Position Styling */
 	z-index: 40;
-	left: 0;
-	right: 0;
 
 	/* Box Styling */
 	width: fit-content;
@@ -279,6 +278,171 @@ section {
 	/* TOP RIGHT BOTTOM LEFT */ 
 	padding: 10vh 2em 2em 2em;
 }
+
+
+
+/* For the We Design Section */
+.we-design {
+	position: relative;
+	display: flex;
+	width: 100%;
+	background-color: var(--color-grey);
+	justify-content: center;
+}
+
+.we-design-inner {
+	margin-top: 10vh;
+	text-align: center;
+	position: relative;
+	width: 45%;
+	z-index: 10;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.we-design-title {
+	/* Position Styling */
+	z-index: 40;
+
+	/* Box Styling */
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+
+	/* Font styling */
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.we-design-details {
+	/* Font styling */
+	color: white;
+
+	/* Positioning and constraints */
+	z-index: 20;
+	margin-top: -8vh;
+	
+	/* TOP RIGHT BOTTOM LEFT */ 
+	padding: 10vh 2em 2em 2em;
+
+	/* Background styling */
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: url("./image-4.avif");
+	background-position: 60%;
+	border: 0.2em solid black;
+}
+
+
+/* For the We Develop Section */
+.we-develop {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url("./image-2.avif");
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+	background-position: 10em;
+}
+
+.we-develop-inner {
+	margin-top: 10vh;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.we-develop-title {
+	/* Position Styling */
+	z-index: 40;
+
+	/* Box Styling */
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+
+	/* Font styling */
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.we-develop-details {
+	z-index: 20;
+	margin-top: -8vh;
+	width: 40%;
+
+	/* TOP RIGHT BOTTOM LEFT */ 
+	padding: 10vh 2em 2em 2em;
+}
+
+
+
+/* For the We Design Section */
+.we-market {
+	position: relative;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.we-market-inner {
+	margin-top: 10vh;
+	text-align: center;
+	position: relative;
+	width: 45%;
+	z-index: 10;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.we-market-title {
+	/* Position Styling */
+	z-index: 40;
+
+	/* Box Styling */
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+
+	/* Font styling */
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.we-market-details {
+	/* Font styling */
+	color: white;
+
+	/* Positioning and constraints */
+	z-index: 20;
+	margin-top: -8vh;
+	
+	/* TOP RIGHT BOTTOM LEFT */ 
+	padding: 10vh 2em 2em 2em;
+
+	/* Background styling */
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: url("./image-5.avif");
+	background-position: 60%;
+	border: 0.2em solid black;
+}
+
+
 
 footer {
 	display: flex;
@@ -351,14 +515,28 @@ footer .footer-copyright {
 		flex-direction: column;
 	}
 
-	.about-us {
+	.about-us,
+	.we-design,
+	.we-develop,
+	.we-market {
 		height: 100%;
 		padding-bottom: 3em;
 	}
 
-	.about-us-inner {
+	.about-us-inner,
+	.we-design-inner,
+	.we-market-inner,
+	.we-develop-inner {
 		margin-top: 3em;
-	}	
+		width: 100%;
+	}
+
+	.about-details,
+	.we-develop-details,
+	.we-design-details,
+	.we-market-details {
+		width: 70%;
+	}
 
 	.nav-links {
 		display: none;
