@@ -560,7 +560,7 @@ footer .footer-copyright {
 	}
 }
 
-@media(max-width: 550px) {
+@media(max-width: 600px) {
 	.monochrome-logo {
 		height: 26.4px;
 		width: 168.6px;
