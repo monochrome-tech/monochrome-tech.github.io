@@ -536,7 +536,7 @@ footer .footer-copyright {
 	.we-develop-details,
 	.we-design-details,
 	.we-market-details {
-		width: 70%;
+		width: 90%;
 	}
 
 	.nav-links {
@@ -548,7 +548,8 @@ footer .footer-copyright {
 	}
 
 	.navbar {
-		width: calc(100% - 4em);
+		width: 100%;
+		padding-right: 1em;
 	}
 
 	.home-hero {
