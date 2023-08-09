@@ -99,6 +99,7 @@
 	font-weight: 400;
 	transition: all .3s ease-in-out;
 	overflow-x: hidden;
+	box-sizing: border-box;
 }
 
 
