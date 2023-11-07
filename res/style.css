@@ -150,7 +150,7 @@ section {
 	/* TOP RIGHT BOTTOM LEFT */ 
 	padding: 2em 3em 2em 3em;
 	gap: 1em;
-	box-shadow: 10px 10px 5px #f2f2f3;
+	box-shadow: 10px 10px 5px var(--color-grey);
 }
 
 .monochrome-logo {
