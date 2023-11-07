@@ -245,7 +245,7 @@ section {
 
 .about-us-inner {
 	margin-top: 10vh;
-	text-align: center;
+	text-align: left;
 	position: relative;
 	width: 100%;
 	z-index: 10;
@@ -501,6 +501,7 @@ footer .footer-title {
 
 footer .footer-copyright {
 	text-align: center;
+	overflow: hidden;
 }
 
 
